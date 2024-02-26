@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+   padding: 40px;
+    background-color: black;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 550px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+
+}
+
+.die-container{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius:4px ;
+    background-color: #ffffff;
+    box-shadow: 0  4px  4px rgba(145, 137, 137, 0.423);
+    margin: 20px 25px;
+}
+.active{
+    background: #59E391;
+}
+.tenzies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    margin: 15px 0;
+    width: 150px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5035FF;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    transition: 0.5s;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.desc{
+    padding: 23px;
+    font-size: 16px;
+    color:#4A4E74;
+    text-align: center;
+}
+
+.turns, .rolls{
+    color: white;
+    background-color: #4A4E74;
+    padding: 7px 20px;
+    border-radius: 4px;
+    margin: 10px 0;
+    margin-bottom: 5px;
+}
+.rolls{
+    background: #59E391;
+    padding:7px 23px;
+}
